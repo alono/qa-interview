@@ -6,6 +6,16 @@
 
 ---
 
+## Setup
+
+```bash
+npm install
+npm start
+```
+
+The server runs on `http://localhost:3000` by default (configurable via `PORT` environment variable).
+
+
 ## Part 1 - Test Design (10-15 minutes)
 
 Write at least **6 test cases** for the `/api/login` endpoint.
@@ -53,15 +63,6 @@ Answer briefly:
 ---
 
 # Application Reference
-
-## Setup
-
-```bash
-npm install
-npm start
-```
-
-The server runs on `http://localhost:3000` by default (configurable via `PORT` environment variable).
 
 ## Endpoints
 
