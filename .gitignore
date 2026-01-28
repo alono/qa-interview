@@ -141,4 +141,4 @@ test-results
 .claude
 
 # Interview solutions (keep hidden from candidates)
-solutions/
+solutions
