@@ -1,0 +1,25 @@
+{
+  "name": "qa-interview-login-api",
+  "version": "1.0.0",
+  "description": "Simple Login API for QA Automation Interview Testing",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --forceExit",
+    "test:api": "jest --forceExit solutions/part2-api-tests.spec.js",
+    "test:ui": "playwright test solutions/part2-ui-tests.spec.ts",
+    "test:ui:headed": "playwright test solutions/part2-ui-tests.spec.ts --headed"
+  },
+  "keywords": ["qa", "testing", "login", "api"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "@playwright/test": "^1.40.0"
+  }
+}
